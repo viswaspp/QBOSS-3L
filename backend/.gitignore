@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+
+# Biometric database — contains encrypted templates, never commit
+models/qboss_biometrics.db
+
+# Encryption key — CRITICAL: losing this means losing all enrolled templates
+models/db_key.key
+
+# Audio samples
+audio/
+
+# Legacy flat-file model artefacts (now in DB)
+models/*.npy
+models/*.pkl

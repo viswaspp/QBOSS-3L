@@ -1,0 +1,49 @@
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Node / frontend
+node_modules/
+dist/
+.vite/
+
+# Runtime logs
+*.log
+backend/*server*.out.log
+backend/*server*.err.log
+frontend/*server*.out.log
+frontend/*server*.err.log
+
+# Captured biometric media
+backend/audio/enroll/**
+backend/audio/live/**
+CLI/Voicee/audio/enroll/**
+CLI/Voicee/audio/live/**
+
+# Personal biometric templates, keys, and local databases
+backend/models/*.db
+backend/models/*.key
+backend/models/*.npy
+backend/models/*.pkl
+backend/models/face_meta.json
+CLI/**/models/*.npy
+CLI/**/models/*.pkl
+
+# Local archives/backups
+*.zip
+*.7z
+*.rar
