@@ -5,7 +5,7 @@
 <h1 align="center">🔐 QBOSS-3L</h1>
 
 <h3 align="center">
-  <em>Quantum-enhanced Biometric Operating System Security — 3-Layer Authentication</em>
+  <em>Quantum- Behavioral Oriented System Security — 3-Layer Authentication</em>
 </h3>
 
 <p align="center">
